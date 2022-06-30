@@ -1,0 +1,36 @@
+.client-list {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+} 
+
+.client-list__rectangle {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-grey);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+    &:hover {
+            fill: var(--blue);
+            border-color: var(--blue);
+            cursor: pointer;
+
+    &:hover svg {
+        fill: var(--blue);
+    } 
+} }
+
+.client-list__rectangle--first {
+    margin: 0;
+}
+
+.client-list__logo {
+    width: 106px;
+    height: 60.04px;
+    fill: var(--social-grey);
+}

@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--black);
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer__address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.footer__contact {
+    color: #fff;
+    opacity: 40%;
+    text-decoration: none;
+    cursor: pointer;
+}

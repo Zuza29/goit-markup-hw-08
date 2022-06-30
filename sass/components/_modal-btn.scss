@@ -1,0 +1,18 @@
+.modal__close-btn {
+    position: absolute;
+    background-color: #fff;
+    cursor: pointer;
+    top: 8px;
+    right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+}
+
+.modal__x {
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+}

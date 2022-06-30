@@ -1,0 +1,56 @@
+.footer-form__input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    background-color: transparent;
+    color: var(--text-grey);
+    padding: 16px;
+
+&::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+} }
+
+.footer-form {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+}
+
+.footer-form__button {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-items: center;
+    border: none;
+    background-color: var(--blue);
+    position: relative;
+}
+
+.footer-form__signup {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.footer-form__icon {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    right: 32px;
+    top: 12px;
+    position: absolute;
+}
+
+.footer-form__button:hover {
+    cursor: pointer;
+}
+

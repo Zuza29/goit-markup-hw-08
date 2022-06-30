@@ -1,0 +1,27 @@
+.image-list {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.image-list__overlay {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    top: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+}
+
+.image-list-overlay-container {
+    position: relative;
+    margin-right: 30px;
+}

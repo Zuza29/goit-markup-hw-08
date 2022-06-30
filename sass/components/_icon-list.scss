@@ -1,0 +1,23 @@
+.icon-list-rectangle {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon-list-rectangle__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.icon-list {
+    display: flex;
+    padding: 0;
+    padding-top: 94px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
