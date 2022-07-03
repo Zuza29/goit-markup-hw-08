@@ -1,6 +1,13 @@
+@media screen and (max-width: 1199px) {
+    .image-list, .image-list__overlay, .image-list-overlay-container,
+    .section-heading--what-we-do {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
 .image-list {
     display: flex;
-    flex-direction: column;
     padding-left: 0;
     justify-content: space-between;
 }
@@ -25,4 +32,4 @@
 .image-list-overlay-container {
     position: relative;
     margin-right: 30px;
-}
+} }

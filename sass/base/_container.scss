@@ -5,6 +5,27 @@
     margin: 0 auto;
     padding: 0 15px;
   }
+
+.container--footer {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ }
+
+ .footer-social {
+  display: flex;
+  flex-direction: row;
+ }
+
+.header-container {
+ display: flex;
+   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

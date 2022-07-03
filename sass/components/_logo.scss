@@ -1,14 +1,11 @@
 .header__logo,
 .footer__logo {
-    font-family: "Raleway", "sans-serif";
+      font-family: "Raleway", "sans-serif";
     font-weight: 700;
-    font-size: 26px;
     font-style: normal;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+    letter-spacing: 0.03em; }
 
-.logo--blue {
+    .logo--blue {
     color: var(--blue);
 }
 
@@ -19,3 +16,20 @@
 .logo--white {
     color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+.header__logo,
+.footer__logo {
+    font-size: 24px;
+    line-height: 1.16;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+.header__logo,
+.footer__logo {
+    font-size: 26px;
+    line-height: 1.19;
+
+} }

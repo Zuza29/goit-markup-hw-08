@@ -15,8 +15,7 @@
       rel="stylesheet"
     />
   </head>
-
-  <!-- <body>
+<body>
     <header class="header">
       <div class="header-container">
         <a href="index.html">
@@ -48,11 +47,14 @@
               +48 111 111 111</a>
           </li>
         </ul>
+        <div class="hamburger-menu">
+          <svg class="hamburger-menu__item">
+            <use href="images/icons.svg#icon-menu"></use>
+          </svg>
+        </div>
       </div>
-    </header> -->
-
-
-    <!-- <main>
+    </header>
+ <main>
         <div class="hero container">
           <h1>Efektywne rozwiązania dla waszego biznesu</h1>
           <button type="button" class="hero__button" data-modal-open>Zamów usługę</button>
@@ -64,66 +66,59 @@
       <div class="container">
           <ul class="icon-list">
             <li class="icon-list-rectangle">
-          
                 <svg class="icon-list-rectangle__icon">
                   <use href="images/icons.svg#icon-antenna"></use>
                 </svg>
-            
+            <li>
+              <span class="icon-list__heading">Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
             </li>
             <li class="icon-list-rectangle">
             
                 <svg class="icon-list-rectangle__icon">
                   <use href="images/icons.svg#icon-clock"></use>
                 </svg>
-     
+     <li>
+              <span class="icon-list__heading">Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
             </li>
             <li class="icon-list-rectangle">
-            
                 <svg class="icon-list-rectangle__icon">
                   <use href="images/icons.svg#icon-diagram"></use>
                 </svg>
-             
+             <li>
+              <span class="icon-list__heading">Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
             </li>
             <li class="icon-list-rectangle">
                 <svg class="icon-list-rectangle__icon">
                   <use href="images/icons.svg#icon-astronaut"></use>
                 </svg>
             </li>
-          </ul>
-          <ul class="text-block-list">
-            <li class="text-block-list__item">
-              <span class="text-block-list__heading">Lorem ipsum</span>
-              <p class="text-block-list__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li class="text-block-list__item">
-              <span class="text-block-list__heading">Lorem ipsum</span>
-              <p class="text-block-list__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li class="text-block-list__item">
-              <span class="text-block-list__heading">Lorem ipsum</span>
-              <p class="text-block-list__paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li class="text-block-list__item">
-              <span class="text-block-list__heading">Lorem ipsum</span>
-              <p class="text-block-list__paragraph">
+            <li>
+              <span class="icon-list__heading">Lorem ipsum</span>
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
           </ul>
-        </div> -->
-      <section class="section">
+        </div>
+   <section class="section">
         <div class="container">
-          <h2 class="section-heading">Czym się zajmujemy</h2>
+          <hicon-list__heading--what-we-do">Czym się zajmujemy</h2>
           <ul class="image-list">
             <li class="image-list-overlay-container">
               <img
@@ -163,7 +158,7 @@
       </section>
       <section class="section">
         <div class="team">
-          <h2 class="section-heading section-heading--team">Nasz zespół</h2>
+          <hicon-list__heading--team">Nasz zespół</h2>
           <ul class="team__list">
             <li>
               <figure class="team__card team__card--first">
@@ -321,9 +316,9 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="section">
+   <section class="section">
         <div class="container">
-          <h2 class="section-heading">Nasi klienci</h2>
+          <hicon-list__heading">Nasi klienci</h2>
           <ul class="client-list">
             <li>
               <div class="client-list__rectangle client-list__rectangle--first">
@@ -370,7 +365,8 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main>  
+    
 
     <footer class="footer">
       <div class="container container--footer">
@@ -390,7 +386,7 @@
           </address>
         </div>
         <div class="container--footer-social">
-          <h3 class="footer__heading">Dołącz do nas</h3>
+          <hicon-list__heading">Dołącz do nas</h3>
           <ul class="footer-social">
             <li class="footer-social__item">
               <a href="#" class="footer-social__link">
@@ -424,7 +420,7 @@
         </div>
 
         <div class="container--footer-form">
-          <h3 class="footer__heading">Zapisz się do newslettera</h3>
+          <hicon-list__heading">Zapisz się do newslettera</h3>
           <div class="footer-form">
             <form
               name="newsletter"
@@ -461,7 +457,7 @@
           action="http://localhost:3000/posts"
           method="POST"
         >
-          <h3 class="modal-form__heading">Zostaw swoje dane w formularzu poniżej</h3>
+          <h3 clicon-list__heading">Zostaw swoje dane w formularzu poniżej</h3>
           <label class="modal-form__label" for="user_name"
             >Imię
             <svg class="modal-form__icon modal-form__icon--avatar">
@@ -517,10 +513,10 @@
           <button class="modal-form__button" type="submit">Wyślij</button>
         </form>
       </div>
-    </div> -->
+    </div> 
 
 
 
     <script src="js/modal.js"></script>
   </body>
-</html> -->
+</html> 
