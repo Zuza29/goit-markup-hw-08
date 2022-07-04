@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+/* Portfolio cards */
 
 .portfolio {
   padding-top: 56px;
@@ -45,7 +45,7 @@
 .portfolio__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .portfolio__paragraph {
@@ -74,4 +74,5 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   padding-top: 49px;
-  padding-left: 15px; } }
+  padding-left: 15px;
+}

@@ -1,40 +1,4 @@
-@media screen and (max-width: 767px) {
-  
-.button-list {
-  display: flex;
-  padding-bottom: 0;
-  flex-wrap: wrap;
-  margin-top: -34px;
-}
-
-.button-list__item {
-  background-color: var(--grey);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  border-style: none;
-  font-family: inherit;
-  cursor: pointer;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  padding: 6px 22px;
-  margin-top: 15px;
-
-  &:not(last-child) {
-    margin-right: 8px;
-  }
-
-  &:focus,
-  &:hover {
-    background-color: var(--blue);
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-  }
-} }
-
-@media screen and (min-width: 1200px) {
+/* Buttons */
 
 .button-list {
   display: flex;
@@ -66,4 +30,4 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
-} }
+}

@@ -1,26 +1,3 @@
-@media screen and (max-width: 767px) {
-    .footer {
-    background-color: var(--black);
-    color: #fff;
-    font-size: 14px;
-    line-height: 1.71;
-}
-
-.footer__address {
-    font-style: normal;
-    margin-top: 20px;
-}
-
-.footer__contact {
-    color: #fff;
-    opacity: 40%;
-    text-decoration: none;
-    cursor: pointer;
-}
-}
-
-@media screen and (min-width: 1200px) {
-
 .footer {
     background-color: var(--black);
     color: #fff;
@@ -38,4 +15,4 @@
     opacity: 40%;
     text-decoration: none;
     cursor: pointer;
-} }
+}

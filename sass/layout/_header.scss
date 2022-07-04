@@ -1,4 +1,3 @@
-@media screen and (max-width: 767px) {
 .header {
     background-color: #fff;
     font-weight: 500;
@@ -7,17 +6,4 @@
     min-height: 80px;
     display: flex;
     align-items: center;
-    padding: 0 15px; }
-}
-
-@media screen and (min-width: 1200px) {
-    .header {
-    background-color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    border-bottom: 1px solid #ececec;
-    min-height: 80px;
-    display: flex;
-    align-items: center;
-}
 }
