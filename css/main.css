@@ -87,7 +87,6 @@ a {
 }
 
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -294,34 +293,7 @@ a {
   margin-right: 30px;
 }
 
-.text-block-list {
-  display: flex;
-  color: var(--text-grey);
-}
-
-.text-block-list__paragraph {
-  width: 270px;
-  height: 120px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  display: flex;
-  justify-content: center;
-}
-
-.text-block-list__item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.text-block-list__heading {
-  color: var(--text-black);
-  font-weight: 700;
-  text-transform: uppercase;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.icon-list-rectangle {
+.icon-list__rectangle {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -329,12 +301,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  position: relative;
+  margin-bottom: 30px;
 }
 
-.icon-list-rectangle__icon {
+.icon-list__icon {
   width: 70px;
   height: 70px;
+  position: absolute;
 }
 
 .icon-list {
@@ -343,6 +317,26 @@ a {
   padding-top: 94px;
   justify-content: center;
   margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+
+.icon-list__paragraph {
+  width: 270px;
+  height: 120px;
+  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  color: var(--text-grey);
+}
+
+.icon-list__heading {
+  color: var(--text-black);
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .team {
@@ -774,10 +768,6 @@ a {
 }
 
 /* Portfolio cards */
-.portfolio {
-  padding-top: 56px;
-}
-
 .portfolio__heading {
   color: var(--text-black);
   font-weight: 700;
@@ -814,10 +804,11 @@ a {
   cursor: pointer;
 }
 
-.portfolio__list {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 56px;
 }
 
 .portfolio__paragraph {
@@ -853,7 +844,8 @@ a {
 .button-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 0;
+  padding-bottom: 0px;
+  padding-top: 94px;
 }
 
 .button-list__item {

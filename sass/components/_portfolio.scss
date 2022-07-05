@@ -1,9 +1,5 @@
 /* Portfolio cards */
 
-.portfolio {
-  padding-top: 56px;
-}
-
 .portfolio__heading {
   color: var(--text-black);
   font-weight: 700;
@@ -42,10 +38,11 @@
   cursor: pointer;
 } }
 
-.portfolio__list {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+    padding-top: 56px;
 }
 
 .portfolio__paragraph {
