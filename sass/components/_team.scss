@@ -1,3 +1,47 @@
+// Team section
+
+// Mobile styles
+
+.team {
+    background-color: var(--grey);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    padding-top: 0;
+    padding-bottom: 94px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.team__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team__caption {
+    color: var(--text-grey);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team__name {
+    color: var(--text-black);
+    font-weight: 500;
+}
+
+// Desktop styles 
+
+@media screen and (min-width: 1200px) {
 .team {
     background-color: var(--grey);
     font-size: 16px;
@@ -36,4 +80,4 @@
 .team__name {
     color: var(--text-black);
     font-weight: 500;
-}
+} }

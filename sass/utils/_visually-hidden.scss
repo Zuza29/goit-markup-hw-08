@@ -1,5 +1,22 @@
-.is-hidden {
-    opacity: 0;
-    visibility: none;
-    pointer-events: none;
+
+    .our-services {
+        display: none;
+    }
+
+  .menu, .menu-2 {
+   display: none !important; }
+
+
+@media screen and (min-width: 1200px) {
+    .mobile-navigation {
+        display: none;
+    }
+
+      .our-services {
+        display: block;
+    }
+
+  .menu, .menu-2 {
+   display: block;
+  }
 }

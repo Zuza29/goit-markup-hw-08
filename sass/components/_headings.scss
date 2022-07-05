@@ -1,3 +1,9 @@
+// Headings 
+
+// Mobile styles
+
+// Every section heading
+
 .section-heading {
     text-align: center;
     padding-bottom: 50px;
@@ -6,9 +12,57 @@
     line-height: 1.6;
 }
 
+// Team section heading
+
 .section-heading--team {
     padding-top: 94px;
 }
+
+// Other headings
+
+.footer__heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    flex-basis: 100%;
+}
+
+.modal-form__heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-black);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+// Desktop styles 
+
+@media screen and (min-width: 1200px) {
+
+// Every section heading
+
+.section-heading {
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+// Team section heading
+
+.section-heading--team {
+    padding-top: 94px;
+}
+
+// Other headings
 
 .footer__heading {
     font-weight: 700;
@@ -32,4 +86,4 @@
     color: var(--text-black);
     margin-top: 40px;
     margin-bottom: 30px;
-}
+} }

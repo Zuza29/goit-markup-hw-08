@@ -1,7 +1,14 @@
+// List of images ('What We Do')
+
 .image-list {
     display: flex;
     padding-left: 0;
     justify-content: space-between;
+}
+
+.image-list-overlay-container {
+    position: relative;
+    margin-right: 30px;
 }
 
 .image-list__overlay {
@@ -19,9 +26,4 @@
     text-transform: uppercase;
     color: #fff;
     display: flex;
-}
-
-.image-list-overlay-container {
-    position: relative;
-    margin-right: 30px;
 }

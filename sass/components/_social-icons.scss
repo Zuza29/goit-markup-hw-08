@@ -1,3 +1,5 @@
+// Team section social list
+
 .team-social-list {
     display: flex;
     align-items: center;
@@ -37,6 +39,8 @@
     fill: #fff;
 }
 
+// Footer social list
+
 .footer-social__icon {
     width: 20px;
     height: 20px;
@@ -58,8 +62,7 @@
   color: #fff;
 
   &:hover {
-    background-color: var(--blue);
-    fill: #fff; }
+    background-color: var(--blue); }
 }
 
 .footer-social-icon {
@@ -69,8 +72,3 @@
   display: flex;
   justify-content: center;
 }
-
-.footer-social__link {
-&:hover {
-  background-color: var(--blue);
-} }

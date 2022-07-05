@@ -1,4 +1,11 @@
-/* Portfolio cards */
+// Portfolio
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 56px;
+}
 
 .portfolio__heading {
   color: var(--text-black);
@@ -31,26 +38,19 @@
   overflow: hidden;
   z-index: 1001;
 
-
-&:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-} }
-
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-    padding-top: 56px;
-}
-
-.portfolio__paragraph {
-  padding: 4px 24px 20px 24px;
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+  }
 }
 
 .portfolio__item:hover .portfolio-overlay {
   transform: translatey(0);
+}
+
+.portfolio__paragraph {
+  padding: 4px 24px 20px 24px;
 }
 
 .portfolio-overlay {

@@ -1,3 +1,16 @@
+// Mobile styles
+
+.mobile-navigation__icon {
+  width: 25px;
+  height: 25px;
+  fill: #000;
+}
+
+// Desktop styles 
+
+@media screen and (min-width: 1200px) {
+  // Navigation - menu 1
+
 .menu {
   display: flex;
   margin-left: 93px;
@@ -35,6 +48,14 @@
   }
 }
 
+.menu__item {
+  margin-right: 46px;
+  display: flex;
+  align-items: center;
+}
+
+// Navigation - menu 2
+
 .menu-2 {
   margin-left: auto;
   margin-right: 12px;
@@ -61,11 +82,7 @@
   }
 }
 
-.menu__item {
-  margin-right: 46px;
-  display: flex;
-  align-items: center;
-}
+// Navigation - icons
 
 .icon--mail {
   height: 12px;
@@ -80,4 +97,6 @@
 .menu-2__icon {
   margin-right: 10px;
   fill: var(--text-grey);
+}
+
 }

@@ -1,3 +1,28 @@
+// Footer
+
+// Mobile styles 
+.footer {
+    background-color: var(--black);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 100%;
+}
+
+.footer__address {
+    font-style: normal;
+}
+
+.footer__contact {
+    color: #fff;
+    opacity: 40%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// Desktop styles 
+
+@media screen and (min-width: 1200px) {
 .footer {
     background-color: var(--black);
     color: #fff;
@@ -15,4 +40,4 @@
     opacity: 40%;
     text-decoration: none;
     cursor: pointer;
-}
+} }
