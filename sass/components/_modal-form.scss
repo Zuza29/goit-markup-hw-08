@@ -101,6 +101,8 @@
 .checkbox-container__default {
   position: absolute;
   opacity: 0;
+  width: 448px;
+  height: 40px;
 }
 
 .checkbox-container__default:checked + .checkbox-container__label::before {

@@ -29,6 +29,7 @@
     max-width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center;
 }
 
 // Footer social & fill-in form containers 
@@ -39,11 +40,17 @@
     align-items: center;
 }
 
+.footer-social {
+    margin-bottom: 60px;
+}
+
 .container--footer-social,
 .container--footer-form {
     display: flex;
     flex-wrap: wrap;
+        margin-bottom: 60px;
 } 
+
 
 //Desktop styles
 
@@ -62,8 +69,9 @@
 .header-container {
     display: flex;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    min-height: 75px;
 }
 
 // Footer containers
@@ -71,12 +79,14 @@
 .container--footer {
     display: flex;
     align-items: start;
+    flex-direction: row;
 }
 
 .container-footer {
     min-width: 280px;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: start;
 }
 
 // Footer social & fill-in form containers 
@@ -87,8 +97,13 @@
     align-items: center;
 }
 
+.footer-social {
+    margin-bottom: 0;
+}
+
 .container--footer-social,
 .container--footer-form {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0;
 } }

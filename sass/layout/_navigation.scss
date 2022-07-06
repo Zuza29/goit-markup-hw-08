@@ -4,6 +4,10 @@
   width: 25px;
   height: 25px;
   fill: #000;
+
+  &:hover {
+    fill: var(--blue);
+  }
 }
 
 // Desktop styles 

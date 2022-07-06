@@ -1,10 +1,12 @@
 
+    @media screen and (max-width: 1199px) {
+    
     .our-services {
         display: none;
-    }
+    } 
 
   .menu, .menu-2 {
-   display: none !important; }
+   display: none } }
 
 
 @media screen and (min-width: 1200px) {
@@ -17,6 +19,5 @@
     }
 
   .menu, .menu-2 {
-   display: block;
-  }
+   display: flex;  }
 }

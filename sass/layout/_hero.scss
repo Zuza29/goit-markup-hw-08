@@ -2,17 +2,21 @@
 
 // Mobile styles
 
+@media screen and (max-width: 767px) {
+
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/mobile-bgimg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 100%;
+background-size: cover;
     min-height: 400px;
     margin: 0 auto;
 background-color: #fff;
-position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .hero__heading {
@@ -22,7 +26,8 @@ position: relative;
     text-transform: uppercase;
     line-height: 1.61;
     letter-spacing: 0.06em;
-
+flex-basis: 100%;
+text-align: center;
 }
 
 .hero__button {
@@ -37,7 +42,7 @@ position: relative;
     padding: 10px 41px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-} 
+} }
 
 // Desktop styles
 
