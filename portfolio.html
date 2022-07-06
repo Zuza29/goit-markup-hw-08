@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-     <header class="header">
+ <header class="header">
       <div class="header-container">
         <a href="index.html">
           <span class="header__logo logo--blue">Web</span
@@ -23,10 +23,10 @@
         <nav>
           <ul class="menu">
             <li class="menu__item">
-              <a href="index.html" class="menu__link menu__link--active">Agencja</a>
+              <a href="index.html" class="menu__link">Agencja</a>
             </li>
             <li class="menu__item">
-              <a href="portfolio.html" class="menu__link">Portfolio</a>
+              <a href="portfolio.html" class="menu__link menu__link--active">Portfolio</a>
             </li>
             <li class="menu__item"><a href="..." class="menu__link">Kontakt</a></li>
           </ul>
@@ -45,11 +45,12 @@
               +48 111 111 111</a>
           </li>
         </ul>
-        <nav class="mobile-navigation">
+        <div class="mobile-navigation">
+          <button class="mobile-navigation__button js-open-menu">
           <svg class="mobile-navigation__icon">
             <use href="images/icons.svg#icon-menu"></use>
-          </svg>
-        </nav>
+          </svg></button>
+        </div>
       </div>
     </header>
     <main>
@@ -69,7 +70,13 @@
         <ul class="portfolio">
     <li class="portfolio__item">
         <img 
-        src="images/p9.jpg"
+        src="images/portfolio/mobile/1x/1-1x-450x294.png"
+                            srcset="
+                      images/portfolio/mobile/1x/1-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/1-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/1-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/1-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -89,7 +96,13 @@
 
 <li class="portfolio__item">
         <img 
-        src="images/p1.jpg"
+        src="images/portfolio/mobile/1x/2-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/2-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/2-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/2-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/2-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -108,7 +121,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p2.jpg"
+        src="images/portfolio/mobile/1x/3-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/3-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/3-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/3-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/3-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -127,7 +146,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p3.jpg"
+        src="images/portfolio/mobile/1x/4-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/4-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/4-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/4-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/4-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -146,7 +171,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p4.jpg"
+        src="images/portfolio/mobile/1x/5-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/5-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/5-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/5-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/5-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -165,7 +196,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p5.jpg"
+        src="images/portfolio/mobile/1x/6-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/6-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/6-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/6-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/6-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -184,7 +221,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p6.jpg"
+        src="iimages/portfolio/mobile/1x/7-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/7-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/7-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/7-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/7-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -203,7 +246,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p7.jpg"
+        src="images/portfolio/mobile/1x/8-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/8-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/8-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/8-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/8-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -222,7 +271,13 @@
     </li>
     <li class="portfolio__item">
         <img 
-        src="images/p8.jpg"
+        src="images/portfolio/mobile/1x/9-1x-450x294.png"
+                                    srcset="
+                      images/portfolio/mobile/1x/9-1x-450x294.png   450w,
+                      images/portfolio/mobile/1x/9-2x-450x294.png   900w,
+                      images/portfolio/tablet/1x/9-1x-354x294.png   354w,
+                      images/portfolio/tablet/1x/9-2x-354x294.png   708w"
+                    sizes="(min-width: 768px) 354px, (min-width: 480px) 450px"
         alt="123"
         height="294"
         width="370"
@@ -317,5 +372,33 @@
         </div>
       </div>
     </footer>
+
+          <div class="hamburger js-menu-container">
+      <button class="hamburger__close-btn js-close-menu">
+      <svg class="hamburger__x"><use href="/images/icons.svg#x"></use></svg></button>
+      <div class="hamburger-list-container">
+      <ul>
+        <li class="hamburger-list-container__item">
+          <a href="index.html" class="hamburger-list-container__link hamburger-list-container__link--active">Agencja</a></li>
+        <li class="hamburger-list-container__item"><a href="portfolio.html" class="hamburger-list-container__link">Portfolio</a></li>
+        <li class="hamburger-list-container__item"><a href="#"  class="hamburger-list-container__link">Kontakt</a></li>
+      </ul>
+      <ul>
+        <li class="hamburger-list-container__item--first"><a href="tel:+48111111111" class="hamburger-list-container__link hamburger-list-container__link--phone">+48 111 111 111</a></li>
+        <li class="hamburger-list-container__item--second"><a href="mailto:info@devstudio.com" class="hamburger-list-container__link hamburger-list-container__link--mail">info@devstudio.com</a></li>
+      </ul>
+      </div>
+      <ul class="hamburger-social">
+        <li class="hamburger-social__item">Instagram</li>
+        <li class="hamburger-social__item">Twitter</li>
+        <li class="hamburger-social__item">Facebook</li>
+        <li>LinkedIn</li>
+      </ul>
+    </div>
+
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
+
+  
 </html>
