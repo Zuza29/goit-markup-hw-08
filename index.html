@@ -48,11 +48,12 @@
               +48 111 111 111</a>
           </li>
         </ul>
-        <nav class="mobile-navigation">
+        <div class="mobile-navigation">
+          <button class="mobile-navigation__button js-open-menu">
           <svg class="mobile-navigation__icon">
             <use href="images/icons.svg#icon-menu"></use>
-          </svg>
-        </nav>
+          </svg></button>
+        </div>
       </div>
     </header>
     <main>
@@ -441,6 +442,31 @@
       </div>
     </footer>
 
+
+      <div class="hamburger js-menu-container is-open">
+      <button class="hamburger__close-btn js-close-menu">
+      <svg class="hamburger__x"><use href="/images/icons.svg#x"></use></svg></button>
+      <div class="hamburger-list-container">
+      <ul>
+        <li class="hamburger-list-container__item">
+          <a href="index.html" class="hamburger-list-container__link hamburger-list-container__link--active">Agencja</a></li>
+        <li class="hamburger-list-container__item"><a href="portfolio.html" class="hamburger-list-container__link">Portfolio</a></li>
+        <li class="hamburger-list-container__item"><a href="#"  class="hamburger-list-container__link">Kontakt</a></li>
+      </ul>
+      <ul>
+        <li class="hamburger-list-container__item--first"><a href="tel:+48111111111" class="hamburger-list-container__link hamburger-list-container__link--phone">+48 111 111 111</a></li>
+        <li class="hamburger-list-container__item--second"><a href="mailto:info@devstudio.com" class="hamburger-list-container__link hamburger-list-container__link--mail">info@devstudio.com</a></li>
+      </ul>
+      </div>
+      <ul class="hamburger-social">
+        <li class="hamburger-social__item">Instagram</li>
+        <li class="hamburger-social__item">Twitter</li>
+        <li class="hamburger-social__item">Facebook</li>
+        <li>LinkedIn</li>
+      </ul>
+    </div>
+
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__close-btn" data-modal-close>
@@ -516,5 +542,7 @@
 
 
     <script src="js/modal.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+    <script src="js/mobile-menu.js"></script>
   </body>
 </html>

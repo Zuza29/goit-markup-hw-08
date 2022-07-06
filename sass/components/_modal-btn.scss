@@ -1,5 +1,3 @@
-// Modal window close button
-
 .modal__close-btn {
     position: absolute;
     background-color: #fff;
@@ -17,4 +15,7 @@
     width: 30px;
     height: 30px;
     z-index: 1000;
+    &:focus svg {
+fill: var(--blue);
+    }
 }
