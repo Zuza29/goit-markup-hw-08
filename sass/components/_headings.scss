@@ -33,6 +33,7 @@
     margin-bottom: 20px;
 }
 
+
 .modal-form__heading {
     font-weight: 700;
     font-size: 20px;
@@ -78,6 +79,14 @@
     margin-bottom: 20px;
     padding-left: 10px;
     text-align: start;
+
+        &--join-us {
+   margin-left: 5px;
+    }
+
+    &--sign-up {
+        margin-left: 132px;
+    }
 }
 
 .modal-form__heading {

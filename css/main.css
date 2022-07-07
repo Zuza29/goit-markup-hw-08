@@ -105,7 +105,6 @@ a {
   max-width: 480px;
   padding-top: 60px;
   padding-bottom: 60px;
-  text-align: center;
 }
 
 .footer-social,
@@ -123,6 +122,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 60px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -331,6 +331,12 @@ a {
     margin-bottom: 20px;
     padding-left: 10px;
     text-align: start;
+  }
+  .footer__heading--join-us {
+    margin-left: 5px;
+  }
+  .footer__heading--sign-up {
+    margin-left: 132px;
   }
 
   .modal-form__heading {
@@ -1554,8 +1560,7 @@ a {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  align-items: center;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .footer-form__input {
@@ -1606,6 +1611,15 @@ a {
   position: absolute;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: start;
+  }
+}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
