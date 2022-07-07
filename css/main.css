@@ -168,6 +168,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -653,13 +654,15 @@ a {
     font-weight: 900;
     font-size: 44px;
     text-transform: uppercase;
-    line-height: 1.36;
+    line-height: 1.61;
     text-align: center;
     letter-spacing: 0.06em;
     padding-top: 200px;
     padding-bottom: 200px;
   }
-
+  .hero__heading {
+    font-size: 44px;
+  }
   .hero__button {
     background-color: var(--blue);
     color: #fff;
@@ -673,12 +676,12 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/mobile/hero-mobile-2x-960x800.jpg);
   }
 }
-@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/tablet/hero-tablet-2x-1536x800.jpg);
   }
@@ -980,6 +983,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  margin: 0 auto;
 }
 
 .client-list__rectangle {
@@ -1551,13 +1555,14 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   align-items: center;
+  margin: 0 auto;
 }
 
 .footer-form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  width: 358px;
+  width: 80%;
   background-color: transparent;
   color: var(--text-grey);
   padding: 16px;
@@ -1576,6 +1581,7 @@ a {
   border: none;
   background-color: var(--blue);
   position: relative;
+  margin: 30px auto;
 }
 .footer-form__button:hover {
   cursor: pointer;

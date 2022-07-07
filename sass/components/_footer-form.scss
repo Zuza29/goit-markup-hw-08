@@ -6,13 +6,14 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     align-items: center;
+    margin: 0 auto;
 }
 
 .footer-form__input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    width: 358px;
+    width: 80%;
     background-color: transparent;
     color: var(--text-grey);
     padding: 16px;
@@ -31,6 +32,7 @@
     border: none;
     background-color: var(--blue);
     position: relative;
+    margin: 30px auto;
 
     &:hover {
         cursor: pointer;
