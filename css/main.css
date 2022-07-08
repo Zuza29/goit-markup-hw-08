@@ -221,6 +221,10 @@ a {
     padding-top: 60px;
   }
 }
+.container--footer-social {
+  margin: 0;
+}
+
 .section {
   padding-top: 60px;
 }
@@ -326,7 +330,7 @@ a {
     padding-top: 60px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .section-heading {
     text-align: center;
     padding-bottom: 50px;
@@ -347,16 +351,14 @@ a {
     text-transform: uppercase;
     color: #fff;
     display: block;
-    padding-top: 72px;
     margin-bottom: 20px;
-    padding-left: 10px;
     text-align: start;
   }
   .footer__heading--join-us {
-    margin-left: 5px;
+    margin-left: 80px;
   }
   .footer__heading--sign-up {
-    margin-left: 132px;
+    margin-left: 85px;
   }
 
   .modal-form__heading {
@@ -941,6 +943,7 @@ a {
     max-width: 768px;
     flex-wrap: wrap;
     margin: 0 auto;
+    justify-content: center;
   }
 
   .team__card {
