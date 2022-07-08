@@ -20,22 +20,6 @@
   margin-left: 93px;
 }
 
-.menu__link {
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--text-black);
-  font-weight: 500;
-  &:visited {
-    color: var(--text-black);
-  }
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: var(--blue);
-  }
-}
-
 .menu__link--active {
   position: relative;
   top: 0;
@@ -49,6 +33,22 @@
     width: 100%;
     bottom: -33px;
     left: 0;
+  }
+}
+
+.menu__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-black);
+  font-weight: 500;
+  &:visited {
+    color: var(--text-black);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--blue);
   }
 }
 

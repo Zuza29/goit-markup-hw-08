@@ -105,6 +105,7 @@ a {
   max-width: 480px;
   padding-top: 60px;
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .footer-social,
@@ -143,7 +144,9 @@ a {
   .container--footer {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .container-footer {
@@ -169,6 +172,7 @@ a {
     flex-wrap: wrap;
     margin-bottom: 60px;
     text-align: center;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -214,6 +218,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
+    padding-top: 60px;
   }
 }
 .section {
@@ -306,7 +311,22 @@ a {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-width: 1200px) {
   .section-heading {
     text-align: center;
     padding-bottom: 50px;
@@ -383,19 +403,6 @@ a {
     margin-left: 93px;
   }
 
-  .menu__link {
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--text-black);
-    font-weight: 500;
-  }
-  .menu__link:visited {
-    color: var(--text-black);
-  }
-  .menu__link:hover, .menu__link:focus, .menu__link:active {
-    color: var(--blue);
-  }
-
   .menu__link--active {
     position: relative;
     top: 0;
@@ -410,6 +417,19 @@ a {
     width: 100%;
     bottom: -33px;
     left: 0;
+  }
+
+  .menu__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text-black);
+    font-weight: 500;
+  }
+  .menu__link:visited {
+    color: var(--text-black);
+  }
+  .menu__link:hover, .menu__link:focus, .menu__link:active {
+    color: var(--blue);
   }
 
   .menu__item {

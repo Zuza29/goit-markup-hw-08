@@ -3,166 +3,169 @@
 // Main container
 
 .container {
-    max-width: 100%;
-    align-items: center;
+  max-width: 100%;
+  align-items: center;
 }
 
 // Header container
 
 .header-container {
-    display: flex;
-    align-items: center;
-    max-width: 480px;
-        min-height: 47px;
-    justify-content: space-around;
-      margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 480px;
+  min-height: 47px;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 // Footer containers
 
 .container--footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container-footer {
-    max-width: 480px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+  max-width: 480px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
-// Footer social & fill-in form containers 
+// Footer social & fill-in form containers
 
 .footer-social,
 .footer__form {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer-social {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .container--footer-social,
 .container--footer-form {
-    display: flex;
-    flex-wrap: wrap;
-        margin-bottom: 60px;
-        justify-content: center;
-        
-} 
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  justify-content: center;
+}
 
 // Tablet styles
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    // Main container
+  // Main container
 
-.container {
+  .container {
     max-width: 100%;
     align-items: center;
-}
+  }
 
-// Header container
+  // Header container
 
-.header-container {
+  .header-container {
     display: flex;
     align-items: center;
     max-width: 768px;
-        min-height: 80px;
+    min-height: 80px;
     justify-content: space-around;
     margin: 0 auto;
-}
+  }
 
-// Footer containers
+  // Footer containers
 
-.container--footer {
+  .container--footer {
     display: flex;
     align-items: center;
-    flex-direction: column;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: space-around;
+  }
 
-.container-footer {
+  .container-footer {
     max-width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-}
+  }
 
-// Footer social & fill-in form containers 
+  // Footer social & fill-in form containers
 
-.footer-social,
-.footer__form {
+  .footer-social,
+  .footer__form {
     display: flex;
     align-items: center;
-}
+  }
 
-.footer-social {
+  .footer-social {
     margin-bottom: 60px;
-}
+  }
 
-.container--footer-social,
-.container--footer-form {
+  .container--footer-social,
+  .container--footer-form {
     display: flex;
     flex-wrap: wrap;
-        margin-bottom: 60px;
-        text-align: center;
-} 
+    margin-bottom: 60px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
-
 
 //Desktop styles
 
 @media screen and (min-width: 1200px) {
+  // Main container
 
-// Main container
-
-.container {
+  .container {
     max-width: 1200px;
     align-items: center;
     margin: 0 auto;
-}
+  }
 
-// Header container
+  // Header container
 
-.header-container {
+  .header-container {
     display: flex;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     min-height: 75px;
-}
+  }
 
-// Footer containers
+  // Footer containers
 
-.container--footer {
+  .container--footer {
     display: flex;
     align-items: start;
     flex-direction: row;
-}
+  }
 
-.container-footer {
+  .container-footer {
     min-width: 280px;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: start;
-}
+  }
 
-// Footer social & fill-in form containers 
+  // Footer social & fill-in form containers
 
-.footer-social,
-.footer__form {
+  .footer-social,
+  .footer__form {
     display: flex;
     align-items: center;
-}
+  }
 
-.footer-social {
+  .footer-social {
     margin-bottom: 0;
-}
+  }
 
-.container--footer-social,
-.container--footer-form {
+  .container--footer-social,
+  .container--footer-form {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
-} }
+    padding-top: 60px;
+  }
+}
