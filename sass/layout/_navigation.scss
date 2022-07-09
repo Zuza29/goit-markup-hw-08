@@ -61,8 +61,6 @@
 // Navigation - menu 2
 
 .menu-2 {
-  margin-left: auto;
-  margin-right: -50px;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -71,7 +69,6 @@
   color: var(--text-grey);
   text-decoration: none;
   cursor: pointer;
-  margin-right: 50px;
 
   &:hover,
   &:focus,

@@ -445,8 +445,6 @@ a {
   }
 
   .menu-2 {
-    margin-left: auto;
-    margin-right: -50px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -455,7 +453,6 @@ a {
     color: var(--text-grey);
     text-decoration: none;
     cursor: pointer;
-    margin-right: 50px;
   }
   .menu-2__link:hover, .menu-2__link:focus, .menu-2__link:active {
     color: var(--blue);
