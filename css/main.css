@@ -306,7 +306,7 @@ a {
 
 .modal-form__heading {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
@@ -328,6 +328,10 @@ a {
     padding-left: 10px;
     text-align: center;
     padding-top: 60px;
+  }
+
+  .modal-form__heading {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -799,9 +803,8 @@ a {
     margin-bottom: 30px;
     justify-content: space-evenly;
     flex-direction: row;
-    max-width: 768px;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0 15px;
   }
 
   .icon-list__rectangle {
@@ -814,6 +817,7 @@ a {
     align-items: center;
     position: relative;
     margin-bottom: 30px;
+    width: calc(50vw - 30px);
   }
 
   .icon-list__icon {
@@ -940,7 +944,6 @@ a {
   .team__list {
     display: flex;
     flex-direction: row;
-    max-width: 768px;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
@@ -951,7 +954,8 @@ a {
     border-radius: 0px 0px 4px 4px;
     background-color: #fff;
     text-align: center;
-    margin-left: 60px;
+    margin: 15px;
+    width: calc(50vw - 30px);
   }
 
   .team__caption {
@@ -1115,7 +1119,7 @@ a {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  margin-left: 44px;
+  justify-content: center;
 }
 
 .team-social-list__item {
@@ -1203,7 +1207,7 @@ a {
 
 .modal {
   position: absolute;
-  left: 47%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1.25);
   background-color: #fff;
@@ -1977,7 +1981,7 @@ a {
 }
 
 .hamburger-list-container {
-  padding-top: 48px;
+  padding-top: 100px;
   padding-left: 40px;
 }
 
@@ -1985,21 +1989,25 @@ a {
   transform: translateX(0);
 }
 
-.mobile-navigation__button, .hamburger__close-btn {
+.mobile-navigation__button,
+.hamburger__close-btn {
   background-color: transparent;
   border: none;
 }
 
 .hamburger__close-btn {
-  margin-left: auto;
-  margin-right: 0;
   height: 50px;
   width: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  left: 73%;
+  top: 3%;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
+}
+
+.hamburger__x {
+  width: 70px;
+  height: 70px;
 }
 
 .hamburger-list-container__link {
