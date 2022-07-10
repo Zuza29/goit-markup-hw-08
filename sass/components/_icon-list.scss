@@ -44,7 +44,7 @@ margin-right: auto;
 }
 
 .icon-list__paragraph {
-  width: 270px;
+  max-width: 270px;
   height: 120px;
   line-height: 1.5;
   font-size: 14px;
@@ -72,8 +72,12 @@ margin-right: auto;
 
 // Icon list components
 
+.icon-list__item {
+      width: calc(50% - 30px);
+}
+
 .icon-list__rectangle {
-    width: 270px;
+    max-width: 450px;
     height: 120px;
     border-radius: 4px;
     background-color: var(--grey);
@@ -82,7 +86,7 @@ margin-right: auto;
     align-items: center;
     position: relative;
     margin-bottom: 30px;
-    width: calc(50vw - 30px);
+
 }
 
 .icon-list__icon {
@@ -97,10 +101,13 @@ margin-right: auto;
   text-transform: uppercase;
   display: block;
   margin-bottom: 10px;
+    max-width: 450px;
+margin: 0 auto;
+
+
 }
 
 .icon-list__paragraph {
-  width: 270px;
   height: 120px;
   line-height: 1.5;
   font-size: 14px;
@@ -108,6 +115,8 @@ margin-right: auto;
   display: flex;
   justify-content: center;
   color: var(--text-grey);
+    max-width: 450px;
+margin: 0 auto;
 }
 }
 

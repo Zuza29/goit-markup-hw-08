@@ -447,71 +447,6 @@ a {
     margin-right: 8px;
     fill: var(--text-grey);
   }
-  .menu {
-    display: flex;
-    margin-left: 93px;
-  }
-  .menu__link {
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--text-black);
-    font-weight: 500;
-  }
-  .menu__link:visited {
-    color: var(--text-black);
-  }
-  .menu__link:hover, .menu__link:focus, .menu__link:active {
-    color: var(--blue);
-  }
-  .menu__link--active {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .menu__link--active::after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-top: 4px solid var(--blue);
-    border-radius: 2px;
-    width: 100%;
-    bottom: -33px;
-    left: 0;
-  }
-  .menu__item {
-    margin-right: 46px;
-    display: flex;
-    align-items: center;
-  }
-  .menu-2 {
-    margin-left: auto;
-    margin-right: -50px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .menu-2__link {
-    color: var(--text-grey);
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .menu-2__link:hover, .menu-2__link:focus, .menu-2__link:active {
-    color: var(--blue);
-  }
-  .menu-2__link:hover svg, .menu-2__link:focus svg, .menu-2__link:active svg {
-    fill: var(--blue);
-  }
-  .icon--mail {
-    height: 12px;
-    width: 16px;
-  }
-  .icon--phone {
-    width: 10px;
-    height: 16px;
-  }
-  .menu-2__icon {
-    margin-right: 8px;
-    fill: var(--text-grey);
-  }
 }
 @media screen and (min-width: 1200px) {
   .menu {
@@ -736,7 +671,7 @@ a {
 }
 
 .icon-list__paragraph {
-  width: 270px;
+  max-width: 270px;
   height: 120px;
   line-height: 1.5;
   font-size: 14px;
@@ -758,8 +693,11 @@ a {
     flex-wrap: wrap;
     margin: 0 15px;
   }
+  .icon-list__item {
+    width: calc(50% - 30px);
+  }
   .icon-list__rectangle {
-    width: 270px;
+    max-width: 450px;
     height: 120px;
     border-radius: 4px;
     background-color: var(--grey);
@@ -768,7 +706,6 @@ a {
     align-items: center;
     position: relative;
     margin-bottom: 30px;
-    width: calc(50vw - 30px);
   }
   .icon-list__icon {
     width: 70px;
@@ -781,9 +718,10 @@ a {
     text-transform: uppercase;
     display: block;
     margin-bottom: 10px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .icon-list__paragraph {
-    width: 270px;
     height: 120px;
     line-height: 1.5;
     font-size: 14px;
@@ -791,6 +729,8 @@ a {
     display: flex;
     justify-content: center;
     color: var(--text-grey);
+    max-width: 450px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -952,6 +892,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .client-list__rectangle {
