@@ -104,6 +104,11 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
   padding-left: 40px;
+  flex-wrap: wrap;
+
+  &__item {
+    margin-bottom: 20px;
+  }
 }
 
 .hamburger-social__item::after {
