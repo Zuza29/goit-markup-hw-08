@@ -8,6 +8,10 @@ h2 {
   line-height: 1.7;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 // Desktop styles
 
 @media screen and (min-width: 1200px) {

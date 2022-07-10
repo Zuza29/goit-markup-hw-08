@@ -41,6 +41,10 @@ h2 {
   line-height: 1.7;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1200px) {
   h2 {
     text-align: center;
@@ -821,7 +825,7 @@ a {
     padding-top: 0;
     padding-bottom: 94px;
     margin: auto;
-    max-width: 1600px;
+    max-width: 1200px;
   }
   .team__list {
     display: flex;
@@ -857,7 +861,7 @@ a {
     padding-top: 0;
     padding-bottom: 94px;
     margin: auto;
-    max-width: 1600px;
+    max-width: 1200px;
   }
   .team__list {
     display: flex;
@@ -1832,6 +1836,7 @@ a {
 .hamburger__close-btn {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .hamburger__close-btn {
@@ -1841,7 +1846,6 @@ a {
   left: 73%;
   top: 3%;
   background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
 }
 
 .hamburger__x {
