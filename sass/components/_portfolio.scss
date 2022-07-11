@@ -48,6 +48,10 @@
   }
 }
 
+.portfolio__image {
+  max-width: 100%;
+}
+
 .portfolio__item:hover .portfolio-overlay {
   transform: translatey(0);
 }
